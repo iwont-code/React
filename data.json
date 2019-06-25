@@ -1,0 +1,237 @@
+{
+
+    "message": {
+      "catelist": [
+        {
+          "id": 40,
+          "pid": 0,
+          "class_layer": 1,
+          "title": "手机数码",
+          "subcates": [
+            {
+              "id": 43,
+              "pid": 40,
+              "class_layer": 2,
+              "title": "手机通讯",
+              "subcates": []
+            },
+            {
+              "id": 44,
+              "pid": 40,
+              "class_layer": 2,
+              "title": "摄影摄像",
+              "subcates": []
+            },
+            {
+              "id": 45,
+              "pid": 40,
+              "class_layer": 2,
+              "title": "存储设备",
+              "subcates": []
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "pid": 0,
+          "class_layer": 1,
+          "title": "电脑办公",
+          "subcates": [
+            {
+              "id": 46,
+              "pid": 41,
+              "class_layer": 2,
+              "title": "电脑整机",
+              "subcates": []
+            },
+            {
+              "id": 47,
+              "pid": 41,
+              "class_layer": 2,
+              "title": "外设产品",
+              "subcates": []
+            },
+            {
+              "id": 48,
+              "pid": 41,
+              "class_layer": 2,
+              "title": "办公打印",
+              "subcates": []
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "pid": 0,
+          "class_layer": 1,
+          "title": "影音娱乐",
+          "subcates": [
+            {
+              "id": 49,
+              "pid": 42,
+              "class_layer": 2,
+              "title": "平板电视",
+              "subcates": []
+            },
+            {
+              "id": 50,
+              "pid": 42,
+              "class_layer": 2,
+              "title": "音响DVD",
+              "subcates": []
+            },
+            {
+              "id": 51,
+              "pid": 42,
+              "class_layer": 2,
+              "title": "影音配件",
+              "subcates": []
+            }
+          ]
+        },
+        {
+          "id": 150,
+          "pid": 0,
+          "class_layer": 1,
+          "title": "服装类",
+          "subcates": [
+            {
+              "id": 151,
+              "pid": 150,
+              "class_layer": 2,
+              "title": "男装",
+              "subcates": [
+                {
+                  "id": 155,
+                  "pid": 154,
+                  "class_layer": 4,
+                  "title": "休闲西装"
+                },
+                {
+                  "id": 154,
+                  "pid": 151,
+                  "class_layer": 3,
+                  "title": "西装"
+                }
+              ]
+            },
+            {
+              "id": 152,
+              "pid": 150,
+              "class_layer": 2,
+              "title": "女装",
+              "subcates": [
+                {
+                  "id": 153,
+                  "pid": 152,
+                  "class_layer": 3,
+                  "title": "夏装"
+                }
+              ]
+            },
+            {
+              "id": 156,
+              "pid": 150,
+              "class_layer": 2,
+              "title": "冬装",
+              "subcates": []
+            }
+          ]
+        }
+      ],
+      "sliderlist": [
+        {
+          "id": 106,
+          "category_id": 150,
+          "title": "男装",
+          "add_time": "2017-11-24T16:44:19.000Z",
+          "img_url": "http://react.zbztb.cn/imgs/Y4q8LToAfO6ysXfINgVnFONh.png",
+          "is_slide": 1,
+          "is_top": 0,
+          "is_hot": 1
+        },
+        {
+          "id": 102,
+          "category_id": 151,
+          "title": "Hazzys哈吉斯2017新款男士长袖衬衫纯棉修身英伦衬衫显瘦商务衬衣",
+          "add_time": "2017-09-13T17:42:42.000Z",
+          "img_url": "http://react.zbztb.cn/imgs/wTgAWDLpQReTQ-ZOMdlAk4vF.jpg",
+          "is_slide": 1,
+          "is_top": 0,
+          "is_hot": 1
+        },
+        {
+          "id": 100,
+          "category_id": 49,
+          "title": "飞利浦（PHILIPS）55PUF6092/T3 55英寸",
+          "add_time": "2015-04-20T03:27:39.000Z",
+          "img_url": "http://react.zbztb.cn/imgs/FTuX2MTGiwOZjK-rjeZi4tls.jpg",
+          "is_slide": 1,
+          "is_top": 1,
+          "is_hot": 1
+        },
+        {
+          "id": 97,
+          "category_id": 49,
+          "title": "三星（SAMSUNG）UA40HU5920JXXZ 40英寸4K超高清",
+          "add_time": "2015-04-20T03:01:38.000Z",
+          "img_url": "http://react.zbztb.cn/upload/201504/20/thumb_201504200258403759.jpg",
+          "is_slide": 1,
+          "is_top": 0,
+          "is_hot": 1
+        },
+        {
+          "id": 93,
+          "category_id": 46,
+          "title": "Apple iMac MF883CH/A 21.5英寸一体机电脑",
+          "add_time": "2015-04-20T02:33:05.000Z",
+          "img_url": "http://react.zbztb.cn/upload/201504/20/201504200341260763.jpg",
+          "is_slide": 1,
+          "is_top": 0,
+          "is_hot": 1
+        }
+      ],
+      "toplist": [
+        {
+          "id": 100,
+          "category_id": 49,
+          "title": "飞利浦（PHILIPS）55PUF6092/T3 55英寸",
+          "add_time": "2015-04-20T03:27:39.000Z",
+          "img_url": "http://react.zbztb.cn/imgs/FTuX2MTGiwOZjK-rjeZi4tls.jpg",
+          "is_slide": 1,
+          "is_top": 1,
+          "is_hot": 1
+        },
+        {
+          "id": 99,
+          "category_id": 51,
+          "title": "飞利浦（PHILIPS）DVP3690 全高清DVD影碟机播放器",
+          "add_time": "2015-04-20T03:19:48.000Z",
+          "img_url": "http://react.zbztb.cn/upload/201504/20/thumb_201504200318534459.jpg",
+          "is_slide": 0,
+          "is_top": 1,
+          "is_hot": 0
+        },
+        {
+          "id": 98,
+          "category_id": 50,
+          "title": "奔腾（BNTN） 380功放+纽约至尊 套装家庭影院",
+          "add_time": "2015-04-20T03:14:44.000Z",
+          "img_url": "http://react.zbztb.cn/upload/201504/20/thumb_201504200314272543.jpg",
+          "is_slide": 0,
+          "is_top": 1,
+          "is_hot": 0
+        },
+        {
+          "id": 96,
+          "category_id": 48,
+          "title": "惠普(HP) Officejet Pro 8610商用彩色喷墨一体机",
+          "add_time": "2015-04-20T02:53:06.000Z",
+          "img_url": "http://react.zbztb.cn/upload/201504/20/thumb_201504200253026047.jpg",
+          "is_slide": 0,
+          "is_top": 1,
+          "is_hot": 0
+        }
+      ]
+    }
+  }
