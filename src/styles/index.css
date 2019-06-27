@@ -1,9 +1,18 @@
 img{
     display: block;
     width: 100%;
+    height: auto;
 }
 
 a{
     /* 继承父元素的颜色 */
     color:inherit; 
 } 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,ol{
+    list-style: none;
+}

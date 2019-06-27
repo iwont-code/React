@@ -5,6 +5,8 @@ import { Carousel, WingBlank } from "antd-mobile";
 // 调用API接口
 import { getGoods, getGoodsList } from "../api";
 
+// Home组件获取路由的方式（在路由的包中解构出 withRouter方法）
+import { withRouter } from "react-router-dom";
 class Home extends Component {
   state = {
     sliderlist: [],
@@ -33,7 +35,10 @@ class Home extends Component {
             {this.state.sliderlist.map(val => (
               <a
                 key={val.id}
-                href="http://www.alipay.com"
+                href="javascript:;"
+                onClick={() => {
+                  this.props.history.push("/GoodsDetail/" + val.id);
+                }} // 点击跳转到商品详情
                 style={{
                   display: "inline-block",
                   width: "100%",
@@ -59,7 +64,14 @@ class Home extends Component {
             <div className="recommend_row_title">推荐商品</div>
             <div className="recommend_row_content">
               {this.state.toplist.map(v => (
-                <a href="javascript:;" className="top_item" key={v.id}>
+                <a
+                  href="javascript:;"
+                  onClick={() => {
+                    this.props.history.push("/GoodsDetail/" + v.id);
+                  }}
+                  className="top_item"
+                  key={v.id}
+                >
                   <div className="top_item_img">
                     <img src={v.img_url} />
                   </div>
@@ -113,7 +125,13 @@ class Home extends Component {
                   <div className="goods_title">{v.catetitle}</div>
                   <div className="goods_content">
                     {v.datas.map(v2 => (
-                      <a href="#" key={v2.artID}>
+                      <a
+                        href="javascript:;"
+                        onClick={() => {
+                          this.props.history.push("/GoodsDetail/" + v2.artID);
+                        }}
+                        key={v2.artID}
+                      >
                         <img src={v2.img_url} alt="" />
                         <div className="art_title">{v2.artTitle}</div>
                         <div className="goods_price">
@@ -193,4 +211,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default withRouter(Home);

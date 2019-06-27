@@ -8,7 +8,8 @@ import Mylayout from "./compoments/Mylayout";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import Mine from "./pages/Mine";
+// import Mine from "./pages/Mine";
+import GoodsDetail from "./pages/GoodsDetail";
 
 class App extends Component {
   constructor(props) {
@@ -47,10 +48,12 @@ class App extends Component {
             path="/Mine"
             render={props => (
               <Mylayout {...props}>
-                <Mine />
+                <Cart />
               </Mylayout>
             )}
           />
+          {/* 商品的详情 */}
+          <Route path="/GoodsDetail/:id" component={GoodsDetail} />
         </Router>
       </Fragment>
     );
